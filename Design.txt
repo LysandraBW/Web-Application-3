@@ -1,10 +1,10 @@
-COLORS:
 blue (#5688C7) 
 red (#D62839) 
 white (#F4F7F5) 
 black (#08090A) 
 gray (#575A5E)
+green (#2FBF71)
 
+satoshi, 16px 24px 48px 100px
 
-
-
+rounded corners, 5px
