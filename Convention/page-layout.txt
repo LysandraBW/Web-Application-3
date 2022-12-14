@@ -91,6 +91,27 @@ user/dashboard.html
 			ix. Pick-up date
 			x. Pay button
 			xi. Request cancellation button
+
+user/createAppointment.html
+	Navigation same as previous section
+	Text:
+		Create an Appointment
+		(Small) We make creating an appointment as easy as "1, 2, 3!" To create an appointment, complete the form below to the best of your abilities. Any errors made can be fixed by our attentive employees.
+	Input:
+		i. Segmented switch between "choose a default car" or "manual"
+			i. A title saying, "choose a car" is displayed if "choose a default car" is chosen. A drop-down box of cars are shown.
+			ii. A title saying, "describe your car" is displayed if "manual" is chosen.
+				i. VIN (API, auto-completion)
+				ii. Make
+				iii. Model
+				iv. Year
+		ii. What issues are you experiencing, if any?
+		iii. Add additional services
+		iv. Create an appointment button
+	After form submitted successfully, message "a representative will contact you by your preferred choice to determine the date of drop off and yada"	
+	
+			
+		
 		
 		
 			
