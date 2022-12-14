@@ -1,1 +1,8 @@
-
+home.html
+  Navigation:
+    The logo will be on the left and navigation links will be on the right (home, log in, sign up)
+  Heading:
+		Superior Service for Less
+		Orlando, FL
+		In 1968, Anton Walle started  we here at [company name] have provided superior service for our clients. 
+		BMW on the screen, half-wa
