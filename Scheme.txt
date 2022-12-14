@@ -1,0 +1,2 @@
+Objective: Create a web application centered around a theoretical mechanic shop.
+	1.
