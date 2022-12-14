@@ -2,7 +2,22 @@ home.html
   Navigation:
     The logo will be on the left and navigation links will be on the right (home, log in, sign up)
   Heading:
-		Superior Service for Less
-		Orlando, FL
-		In 1968, Anton Walle started  we here at [company name] have provided superior service for our clients. 
-		BMW on the screen, half-wa
+		i. Text:
+			Superior Service for Less
+			Orlando, FL
+			In 1968, Anton Walle founded [company name] to provide quality repairs to those in need. Anton Walle recognized the growing importance that vehicles held in day-to-day life and did his best in ensuring the longevity of these vehicles so that people in his community would have one less thing to stress about. Regardless of where you are, you can trust us at [company name] to take care of you and your vehicle. Whether it's a faulty spark plug or a busted engine, we'll be able to get you back on the road in a safe and reliable vehicle in no time.
+		ii. Design:
+			A BMW will be placed on the right side of the text.
+	Testimony:
+		The testimony section talks about the aspects of this business, presented in cards. If the screen is not wide enough, a button to click through the cards is available.
+		The card will have an emoji that's related to the topic at hand at the top. Below the emoji will be the title of the card. Below the title will be a short description.
+			i. A Reputable Business
+			ii. Competitive Prices
+			iii. Crème de la Crème Mechanics
+			iv. Comprehensive Services
+			v. Straightforward Appointments
+			vi. A Simple System
+			vii. Efficient Customer Service
+			viii. Vehicles All Day, Everday
+			
+		
