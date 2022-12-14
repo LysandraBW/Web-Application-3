@@ -1,1 +1,10 @@
-Colors: red white blue
+COLORS:
+blue (#5688C7) 
+red (#D62839) 
+white (#F4F7F5) 
+black (#08090A) 
+gray (#575A5E)
+
+
+
+
