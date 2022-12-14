@@ -33,10 +33,12 @@ A big image will preface the text of this section.
 		Take the Next Step
 		[Insert short recap with quirky remarks]
 	ii. Buttons:
-		Create Account (Primary)
+		Create account (primary)
 		or
-		Log In (Secondary)
-		
+		Log in (secondary)
+
+Fake Footer:
+Majority of the "links" in this footer are just for show. But they'll be there for the touch of realism.
 		
 
 	
