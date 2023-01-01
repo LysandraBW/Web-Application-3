@@ -1,0 +1,140 @@
+input[type='text'] {
+    font-weight: 600;
+    color: var(--l-gray);
+}
+
+input[type='checkbox'] {
+    display: none;
+}
+
+input[type='checkbox']:checked ~ .checkbox {
+    background: #0071e3 !important;
+    border: none;
+}
+
+input[type='checkbox']:checked ~ .checkbox::before {
+    visibility: visible;
+}
+
+input[type='checkbox']:hover ~ .checkbox {
+    background: var(--tl-gray);
+    cursor: pointer;
+}
+
+input:hover {
+    background: var(--tl-gray);
+}
+
+input {
+    margin-bottom: calc(0.25 * var(--x));
+    padding: var(--x) calc(1 * var(--x));
+    border-radius: var(--border-rad);
+    border: 2px solid var(--t-gray);
+}
+
+/* GENERAL INPUT TEXT CONTAINER */
+.input-text-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* PHONE NUMBER */
+.input-phone-number {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: calc(0.35 * var(--x));
+}
+
+.input-phone-number > span {
+    color: var(--t-gray);
+    font-weight: 900;
+}
+
+.input-phone-number > input {
+    width: 100%;
+}
+
+/* LABEL */
+.input-text-container > .label, .label-check > .label {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--l-gray);
+}
+
+.label-check {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: calc(0.5 * var(--x));
+    margin-bottom: calc(0.25 * var(--x));
+}
+
+/* CHECKBOX */
+.checkbox {
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--t-gray);
+    border-radius: 4px;
+}
+
+.checkbox::before {
+    display: block;
+    content: "";
+    position: relative;
+    top: 4px;
+    left: 1px;
+    right: 0;
+    margin: auto;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(46deg);
+    visibility: hidden;
+}
+
+/* FOCUS */
+.input-text-container > input:focus, .input-phone-number > input:focus {
+    outline: none;
+    border: 2px solid var(--t-blue);
+    background: var(--tl-gray) !important;
+}
+
+/* ERROR */
+.input-text-container > .error-message, .input-check-container > .error-message {
+    color: var(--red);
+    font-size: 10px;
+    font-weight: 600;
+    visibility: hidden;
+}
+
+.input-text-container.error > .label, .label-check.error > .label {
+    color: var(--red);
+}
+
+.input-text-container.error > input {
+    border: 2px solid var(--red);
+}
+
+.input-text-container.error > .error-message {
+    visibility: visible;
+}
+
+.input-text-container.error > input:focus {
+    outline: none;
+    border: 2px solid var(--red)
+}
+
+/* BUTTON */
+.button-container > button {
+    width: 100%;
+    height: 100%;
+    font-weight: 700;
+    font-size: 15px;
+    background: var(--blue);
+    color: white;
+}

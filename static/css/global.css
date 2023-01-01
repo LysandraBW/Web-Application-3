@@ -1,0 +1,91 @@
+:root {
+    --section-spacing-horizontal: 115px;
+    --section-spacing-vertical: 200px;
+
+    --x: 10px;
+
+    --header: 65px;
+    --paragraph: 13px;
+    --span: 10px;
+
+    --black: rgb(20, 19, 19);
+    --white: #f1f1f1;
+    --red: #D00000;
+    --blue: #334195;
+    --t-blue: #334295b5;
+    --a-blue: #0071e3;
+    --gray: #686565;
+    --l-gray: #989898;
+    --t-gray: #85858542; 
+    --tl-gray: #0000000d;
+    --border-rad: 4px;
+}
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-color: var(--white);
+}
+
+body {
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+p, span, h1, h2, h3, a, ul, button, input[type='text'] {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--black);
+}
+
+h1 {
+    font-size: var(--header);
+}
+
+h2 {
+    font-size: calc(0.5 * var(--header));
+}
+
+p {
+    font-size: var(--paragraph);
+    line-height: 20px;
+    font-weight: 600;
+}
+
+span {
+    font-size: var(--span);
+    font-weight: 700;
+}
+
+button {
+    padding: var(--x) calc(2 * var(--x));
+    border-radius: var(--border-rad); 
+    font-weight: 600;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    /*transform: scale(1.04);
+    transition: 500ms;*/
+}

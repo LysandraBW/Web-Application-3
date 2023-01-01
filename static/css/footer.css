@@ -1,0 +1,9 @@
+footer {
+    display: flex;
+    column-gap: var(--x);
+    padding: var(--x);
+}
+
+footer > ul {
+    font-size: var(--span);
+}
